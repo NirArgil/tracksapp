@@ -4,6 +4,9 @@
       "release": {
         "buildType": "app-bundle"
       },
+      "preview": {
+        "buildType": "apk"
+      },
       "development": {
         "buildType": "development-client",
         "distribution": "internal"
