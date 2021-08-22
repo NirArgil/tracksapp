@@ -3,11 +3,11 @@ import axios from 'axios';
 
 const instance = axios.create({
     baseURL: 'https://trackbackend.herokuapp.com',
-    withCredentials: true,
-    headers: {
-        'Content-Type': 'application/json',
-        'Accept' : 'application/json',
-    },
+    // withCredentials: true,
+    // headers: {
+    //     'Content-Type': 'application/json',
+    //     'Accept' : 'application/json',
+    // },
 });
 
 // http://2fea15692065.ngrok.io in development
